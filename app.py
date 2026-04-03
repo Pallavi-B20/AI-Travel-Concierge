@@ -74,7 +74,7 @@ if file is not None:
                 break
 
     if matched_jobs:
-        for job in matched_jobs:
+        for job in matched_jobs:	Q
             st.write("✅", job)
     else:
         st.write("❌ No matching jobs found")
